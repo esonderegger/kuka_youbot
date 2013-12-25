@@ -1,0 +1,18 @@
+<launch>
+
+<!--
+    Launches:
+          -   youbot_control.launch
+                  -   Loads arm controller
+          -   youbot_controller_manager
+                  -   Necessary for STARTING arm controller
+                  -   Necessary for MoveIt to interface with controller
+-->
+
+<!-- Create an instance of each appropriate node -->
+
+<include file="$(find youbot_description)/launch/control/youbot_control.launch"/>
+
+<node name="youbot_controller_manager" pkg="youbot_description" type="youbot_controller_manager" respawn="false" output="screen" />
+
+</launch>

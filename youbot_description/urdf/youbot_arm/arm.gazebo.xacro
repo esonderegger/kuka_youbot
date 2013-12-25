@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+
+	<xacro:macro name="youbot_arm_gazebo" params="name">
+
+		<gazebo>
+		  <link name="${name}_link_0">
+			<gravity>false</gravity>
+		  </link>	
+		</gazebo>
+
+		<gazebo reference="${name}_link_1">
+			<gravity>false</gravity>
+			
+		</gazebo>
+
+		<gazebo reference="${name}_link_2">
+			<gravity>false</gravity>
+			
+		</gazebo>
+
+		<gazebo reference="${name}_link_3">
+			<gravity>false</gravity>
+			
+		</gazebo>
+
+		<gazebo reference="${name}_link_4">
+			<gravity>false</gravity>
+			
+		</gazebo>
+
+		<gazebo reference="${name}_link_5">
+			<gravity>false</gravity>
+			
+		</gazebo>
+
+	</xacro:macro>
+
+</robot>
