@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="joint_state_muxer" type="joint_state_muxer" name="joint_state_muxer" output="screen">
+      <rosparam param="source_list">[base/joint_states, arm_1/joint_states]</rosparam>
+    </node>
+
+</launch>

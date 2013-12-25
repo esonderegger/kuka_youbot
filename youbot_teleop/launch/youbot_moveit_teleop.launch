@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Create an instance of each appropriate node -->
+  <node name="youbot_moveit_teleop" pkg="youbot_teleop" type="youbot_moveit_teleop" respawn="false" output="screen" launch-prefix="xterm -e gdb"/>
+</launch>

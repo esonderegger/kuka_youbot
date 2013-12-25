@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_srt</name>
+  <version>0.0.1</version>
+  <description>SRT specific files for the KUKA youBot</description>
+
+  <maintainer email="evan@srtlabs.com">Evan Sonderegger</maintainer>
+  <author email="evan@srtlabs.com">Evan Sonderegger</author>
+
+  <license>BSD</license>
+
+</package>
