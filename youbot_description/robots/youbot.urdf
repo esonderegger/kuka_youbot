@@ -856,7 +856,7 @@
     </collision>
   </link>
   <joint name="gripper_palm_link_xtion_joint" type="fixed">
-    <origin rpy="0.0201114 0.00763208 3.0937" xyz="0.0197188 -0.0341838 0.0459352"/>
+    <origin rpy="0.0201114 0.00763208 -0.01789265" xyz="-0.0100 0.0301838 0.0559352"/>
     <parent link="gripper_palm_link"/>
     <child link="xtion_camera"/>
   </joint>

@@ -5,5 +5,4 @@
 
 <!-- Load controller_list -->
   <rosparam file="$(find youbot_moveit_config)/config/controllers.yaml"/>
-
 </launch>
