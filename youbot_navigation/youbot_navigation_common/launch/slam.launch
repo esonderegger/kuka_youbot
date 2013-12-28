@@ -1,0 +1,14 @@
+<!-- brings up SLAM -->
+
+<launch>
+  <!-- flip the laser -->
+  <!-- this is necessary if the laser is mounted upside-down -->
+  <!-- <node name="laser_flipper" pkg="laser_flipper" type="laser_flipper" /> -->
+
+  <!-- bring up slam --> 
+    <!-- listen to the flipped laser -->
+  <arg name="scan" value="base_scan_flipped"/>
+  <node name="slam_gmapping" pkg="gmapping" type="slam_gmapping"
+        args="scan:=$(arg scan) _xmin:=-10 _ymin:=-10 _xmax:=10 _ymax:=10" />
+
+</launch>

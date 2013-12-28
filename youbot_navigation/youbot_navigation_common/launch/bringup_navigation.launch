@@ -1,0 +1,13 @@
+<!-- Launch file to bring up all essential nodes for navigation with obstacle avoidance.
+Does not bring up any SLAM or localization algorithm.
+To bring up slam, use slam.launch
+-->
+
+<launch>
+
+<!--  <include file="$(find youbot_common)/launch/youbot_wrapper.launch" />
+  <include file="$(find youbot_common)/launch/youbot_joint_state_publisher.launch" />
+-->  <include file="$(find youbot_navigation_common)/launch/base_front_hokuyo_node.launch" />
+  <include file="$(find youbot_navigation_local)/launch/move_base_local.launch" />
+
+</launch>

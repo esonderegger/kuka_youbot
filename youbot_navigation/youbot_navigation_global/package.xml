@@ -1,0 +1,22 @@
+<package>
+  <name>youbot_navigation_global</name>
+  <version>0.1.1</version>
+  <description>
+
+     Global navigation
+
+  </description>
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <author>Alexey Zakharov, Sebastian Blumenthal</author>
+  <license>LGPL, BSD</license>
+  <url>http://ros.org/wiki/youbot_navigation_global</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>amcl</build_depend>
+
+  <run_depend>amcl</run_depend>
+  
+</package>
+
+

@@ -1,0 +1,21 @@
+<package>
+  <name>youbot_navigation_local</name>
+  <version>0.1.1</version>
+  <description>
+
+     Local navigation
+
+  </description>
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <author>Alexey Zakharov</author>
+  <license>LGPL, BSD</license>
+  <url>http://ros.org/wiki/youbot_navigation_local</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>move_base</build_depend>
+
+  <run_depend>move_base</run_depend>
+  
+</package>
+

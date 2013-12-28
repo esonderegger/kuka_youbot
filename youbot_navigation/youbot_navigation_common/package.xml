@@ -1,0 +1,25 @@
+<package>
+  <name>youbot_navigation_common</name>
+  <version>0.1.1</version>
+  <description>
+
+     Common files for local and local navigation of the youBot
+
+  </description>
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <author>Alexey Zakharov</author>
+  <license>LGPL, BSD</license>
+  <url>http://ros.org/wiki/youbot_navigation_common</url>
+
+  <buildtool_depend>catkin</buildtool_depend>  
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>hokuyo_node</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>hokuyo_node</run_depend>
+</package>
+
+
