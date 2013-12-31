@@ -12,3 +12,6 @@ The following packages must also be installed on your ROS system in order for al
 - [hokuyo_node](https://github.com/ros-drivers/hokuyo_node)
 - [octomap_mapping](https://github.com/OctoMap/octomap_mapping/tree/hydro-devel)
 - [octomap_ros](https://github.com/OctoMap/octomap_ros/tree/hydro-devel)
+- [joy](https://github.com/ros-drivers/joystick_drivers) - required by youbot_teleop. I normally install via "sudo apt-get install ros-hydro-joy"
+- [MoveIt!](http://moveit.ros.org/wiki/MoveIt!) - I normally install via "sudo apt-get install ros-hydro-moveit-full"
+- [MoveIt Commander](https://github.com/ros-planning/moveit_commander) - required only for higher level interfacing with MoveIt
