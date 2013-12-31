@@ -3,7 +3,7 @@ kuka_youbot
 
 Description, controller, MoveIt configuration, and demo files for the Kuka YouBot.
 
-This is the code that [Service Robotics & Technologies](http://srtlabs.com) is using  for its submission to Kuka's [Innovation in Mobile Manipulation Award](http://www.kuka-labs.com/en/network/innovationaward/)competition. Most of this code comes from [WPI-RAIL](https://github.com/WPI-RAIL) and is only slightly modified.
+This is the code that [Service Robotics & Technologies](http://srtlabs.com) is using  for its submission to Kuka's [Innovation in Mobile Manipulation Award](http://www.kuka-labs.com/en/network/innovationaward/) competition. Most of this code comes from [WPI-RAIL](https://github.com/WPI-RAIL) and is only slightly modified.
 
 This software is being actively developend on the YouBot's onboard computer running ROS Hydro on Ubuntu 13.04
 
