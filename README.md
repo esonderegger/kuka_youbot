@@ -15,4 +15,3 @@ The following packages must also be installed on your ROS system in order for al
 - [joy](https://github.com/ros-drivers/joystick_drivers) - required by youbot_teleop. I normally install via "sudo apt-get install ros-hydro-joy"
 - [MoveIt!](http://moveit.ros.org/wiki/MoveIt!) - I normally install via "sudo apt-get install ros-hydro-moveit-full"
 - [MoveIt Commander](https://github.com/ros-planning/moveit_commander) - required only for higher level interfacing with MoveIt
-- GREG WAS HERE! :-)
