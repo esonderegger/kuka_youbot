@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node name="youbot_keyboard_teleop" pkg="youbot_teleop" type="youbot_keyboard_teleop.py" output="screen">
-    <!-- <remap from="cmd_vel" to="cmd_vel_unsafe" /> -->
-  </node>
-  <!-- <node name="cmd_vel_safety" pkg="youbot_common" type="cmd_vel_safety" output="screen"/> -->
-</launch>

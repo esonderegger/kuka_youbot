@@ -1,9 +1,0 @@
-<library path="lib/libyoubot_moveit_arm_kinematics">
-	<class 	name="youbot_kinematics/YoubotArmKinematicsPlugin" 
-			type="youbot_kinematics::YoubotArmKinematicsPlugin"
-		    base_class_type="kinematics::KinematicsBase">
-		<description>
-			A custom implementation of kinematics for the youbot Arm.
-		</description>
-	</class>
-</library>

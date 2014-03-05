@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node name="youbot_arm_teleop" pkg="youbot_teleop" type="youbot_teleop_arm" output="screen">
-</launch>

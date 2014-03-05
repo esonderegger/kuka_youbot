@@ -1,7 +1,0 @@
-/*!
-@page state_machine State Machine
-
-@image html statemachine.png.
-
-This figure shows the rough state machine of the youBot API. One for the youBot base and one for the youBot manipulator.
-*/
